@@ -1,0 +1,18 @@
+cat > .gitignore << EOL
+.DS_Store
+*.pyc
+*.egg-info
+*.swp
+tags
+node_modules
+__pycache__
+sites/*
+!sites/common_site_config.json
+!sites/apps.txt
+config/
+logs/
+.vscode
+.idea
+.env
+*debug.log
+EOL
